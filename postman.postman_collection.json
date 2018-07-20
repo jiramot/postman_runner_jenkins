@@ -1,0 +1,41 @@
+{
+	"info": {
+		"_postman_id": "afa64528-4bbd-4db0-9c88-8bfc37128299",
+		"name": "postman",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "get google",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "380b12c0-6c05-4b0c-b3ee-0ab5132d085a",
+						"type": "text/javascript",
+						"exec": [
+							"pm.test(\"response is ok\", function(){",
+							"    pm.response.to.have.status(200);",
+							"})"
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "https://www.google.com",
+					"protocol": "https",
+					"host": [
+						"www",
+						"google",
+						"com"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
