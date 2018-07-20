@@ -11,7 +11,7 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "380b12c0-6c05-4b0c-b3ee-0ab5132d085a",
+						"id": "eaad4453-fb9f-4771-8940-605e143f4e26",
 						"type": "text/javascript",
 						"exec": [
 							"pm.test(\"response is ok\", function(){",
@@ -31,6 +31,38 @@
 					"host": [
 						"www",
 						"google",
+						"com"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get fungjai",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "e2b4b3e3-457b-4e27-bc22-876b7ab4ac2f",
+						"type": "text/javascript",
+						"exec": [
+							"pm.test(\"response is ok\", function(){",
+							"    pm.response.to.have.status(200);",
+							"})"
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "https://www.fungjai1.com",
+					"protocol": "https",
+					"host": [
+						"www",
+						"fungjai1",
 						"com"
 					]
 				}
