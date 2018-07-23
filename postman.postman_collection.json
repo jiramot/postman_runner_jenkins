@@ -36,38 +36,6 @@
 				}
 			},
 			"response": []
-		},
-		{
-			"name": "get fungjai",
-			"event": [
-				{
-					"listen": "test",
-					"script": {
-						"id": "e2b4b3e3-457b-4e27-bc22-876b7ab4ac2f",
-						"type": "text/javascript",
-						"exec": [
-							"pm.test(\"response is ok\", function(){",
-							"    pm.response.to.have.status(200);",
-							"})"
-						]
-					}
-				}
-			],
-			"request": {
-				"method": "GET",
-				"header": [],
-				"body": {},
-				"url": {
-					"raw": "https://www.fungjai1.com",
-					"protocol": "https",
-					"host": [
-						"www",
-						"fungjai1",
-						"com"
-					]
-				}
-			},
-			"response": []
 		}
 	]
 }
