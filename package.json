@@ -1,0 +1,24 @@
+{
+  "name": "NewmanRunner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "newman": "^3.10.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jiramot/postman_runner_jenkins.git"
+  },
+  "author": "Watchanon Numnam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jiramot/postman_runner_jenkins/issues"
+  },
+  "homepage": "https://github.com/jiramot/postman_runner_jenkins#readme"
+}

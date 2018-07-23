@@ -10,7 +10,8 @@ pipeline{
         }
         stage('run'){
             steps{
-                sh 'newman run postman.postman_collection.json --reporters cli,html,junit --reporter-junit-export reports/xml/report.xml --reporter-html-export reports/html/index.html'
+                sh 'npm install'
+                sh 'npm start'
             }
         }
     }
