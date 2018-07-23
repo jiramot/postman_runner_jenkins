@@ -20,7 +20,7 @@ fs.readdir('./collections/', function (err, files) {
                 export: `reports/html/${file}.html`
               },
               junit: {
-                export: `reports/xml/${file}.html`
+                export: `reports/xml/${file}.xml`
               }
             }
 
